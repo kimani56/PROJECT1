@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Selector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Car Selector Logo">
+        </div>
+        <h1>Car Selector</h1>
+        <nav>
+            <ul>
+                <li><a href="#top">Home</a></li>
+                <li><a href="#about-section">About</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+            <div class="dropdown-content">
+                <a href="#about-section">About</a>
+                <a href="#contact-section">Contact</a>
+                <a href="#top">Home</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="filter-section">
+            <form id="filter-form">
+                <label for="model-select">Select Car Category:</label>
+                <select id="model-select">
+                    
+                    
+                </select>
+
+                <label for="price-range">Select Price Range:</label>
+                <input type="range" id="price-range" min="0" max="100000" step="1000">
+
+                <button type="submit">Search</button>
+            </form>
+        
+
+        <section id="car-list">
+            <!-- Car cards will be dynamically added here -->
+        </section>
+    </main>
+
+    <footer>
+    </section>
+
+    <section id="about-section">
+        <h2>About</h2>
+        <p class="about-description">This is a small description about the website.</p>
+    </section>
+
+    <section id="contact-section">
+        <h2>Contact</h2>
+        <div class="contact-buttons">
+            <div class="icon-spacing"></div>
+            <a href="https://instagram.com" target="_blank"><img src="instagram.gif" alt="Instagram"></a>
+            <div class="icon-spacing"></div>
+            <a href="https://twitter.com" target="_blank"><img src="twitter.gif" alt="Twitter"></a>
+            <div class="icon-spacing"></div>
+            <a href="mailto:example@example.com"><img src="email.gif" alt="Email"></a>
+        </div>
+    </section>
+        <p>&copy; 2023 Car Selector. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

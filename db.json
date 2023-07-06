@@ -1,0 +1,133 @@
+{
+    "car": [
+      {
+        "model": "Toyota",
+        "image": "https://media.istockphoto.com/id/1150931120/photo/3d-illustration-of-generic-compact-white-car-front-side-view.jpg?s=1024x1024&w=is&k=20&c=3w7KSlHnU0KCZnUhZO15C0WE-YYpwnBfRwbwIptXdCY=",
+        "category": "sedan",
+        "specs": "Model: Toyota | Engine: 2.5L, 4-cylinder | Transmission: Automatic | Fuel Type: Petrol | Specific Model: Camry",
+        "price": 25000,
+        "year": 2022,
+        "color": "Silver"
+      },
+      {
+        "model": "Honda",
+        "image": "https://media.istockphoto.com/id/458119929/photo/new-honda-civic-front.jpg?s=1024x1024&w=is&k=20&c=59ubs_PmeS0Vk3EGJ0IKmjQULOAdNqmdBYnw8JMWkoQ=",
+        "category": "sedan",
+        "specs": "Model: Honda | Engine: 1.8L, 4-cylinder | Transmission: CVT | Fuel Type: Petrol | Specific Model: Civic",
+        "price": 22000,
+        "year": 2022,
+        "color": "Red"
+      },
+      {
+        "model": "Tesla",
+        "image": "https://media.istockphoto.com/id/854733342/photo/tesla-model-x-on-the-street.jpg?s=1024x1024&w=is&k=20&c=jXDCjGg2qsSLdhkzu7P59W0qJoOYv-bKK1aONp2gYf0=",
+        "category": "ev",
+        "specs": "Model: Tesla | Electric | Transmission: Automatic | Specific Model: Model 3",
+        "price": 40000,
+        "year": 2022,
+        "color": "Blue"
+      },
+      {
+        "model": "Ford",
+        "image": "https://media.istockphoto.com/id/592034128/photo/ford-f-150.jpg?s=1024x1024&w=is&k=20&c=V-vpnjEKgwLCXTinJ9anL_87A4ChKqv9j_oySHnwQXU=",
+        "category": "truck",
+        "specs": "Model: Ford | Engine: V6 | Transmission: Automatic | Fuel Type: Petrol | Specific Model: F-150",
+        "price": 50000,
+        "year": 2022,
+        "color": "Black"
+      },
+      {
+        "model": "Chevrolet",
+        "image": "https://media.istockphoto.com/id/1350778139/photo/2017-chevrolet-equinox-suv-in-white-chevy-a-division-of-general-motors-also-makes-suburban.jpg?s=1024x1024&w=is&k=20&c=sk8IxPij1f5nU4Y372sfWRNXEQBN9Og9UXyP0j9-bqM=",
+        "category": "suv",
+        "specs": "Model: Chevrolet | Engine: V8 | Transmission: Automatic | Fuel Type: Petrol | Specific Model: Tahoe",
+        "price": 60000,
+        "year": 2022,
+        "color": "White"
+      },
+      {
+        "model": "Mercedes-Benz",
+        "image": "https://media.istockphoto.com/id/1187756393/photo/mercedes-benz-e220d.jpg?s=1024x1024&w=is&k=20&c=sA_sNrNqMFjT_uvSgMy_Y2IO2UFt0lqiS6QsGPv62S4=",
+        "category": "sedan",
+        "specs": "Model: Mercedes-Benz | Engine: 3.0L, 6-cylinder | Transmission: Automatic | Fuel Type: Petrol | Specific Model: E-Class",
+        "price": 55000,
+        "year": 2022,
+        "color": "Gray"
+      },
+      {
+        "model": "Nissan",
+        "image": "nissan.jpg",
+        "category": "sedan",
+        "specs": "Model: Nissan | Engine: 2.0L, 4-cylinder | Transmission: CVT | Fuel Type: Petrol | Specific Model: Altima",
+        "price": 23000,
+        "year": 2022,
+        "color": "Black"
+      },
+      {
+        "model": "BMW",
+        "image": "bmw.jpg",
+        "category": "sedan",
+        "specs": "Model: BMW | Engine: 2.0L, 4-cylinder | Transmission: Automatic | Fuel Type: Petrol | Specific Model: 3 Series",
+        "price": 40000,
+        "year": 2022,
+        "color": "White"
+      },
+      {
+        "model": "Lexus",
+        "image": "lexus.jpg",
+        "category": "sedan",
+        "specs": "Model: Lexus | Engine: 3.5L, 6-cylinder | Transmission: Automatic | Fuel Type: Petrol | Specific Model: ES 350",
+        "price": 45000,
+        "year": 2022,
+        "color": "Silver"
+      },
+      {
+        "model": "Toyota RAV4",
+        "image": "toyota-rav4.jpg",
+        "category": "suv",
+        "specs": "Engine: 2.5L, 4-cylinder | Transmission: Automatic | Fuel Type: Petrol",
+        "price": 28000,
+        "year": 2022,
+        "color": "Blue"
+      },
+      {
+        "model": "Ford Explorer",
+        "image": "ford-explorer.jpg",
+        "category": "suv",
+        "specs": "Engine: 3.5L, V6 | Transmission: Automatic | Fuel Type: Petrol",
+        "price": 35000,
+        "year": 2021,
+        "color": "Black"
+      },
+      {
+        "model": "Chevrolet Tahoe",
+        "image": "chevrolet-tahoe.jpg",
+        "category": "suv",
+        "specs": "Engine: 5.3L, V8 | Transmission: Automatic | Fuel Type: Petrol",
+        "price": 45000,
+        "year": 2022,
+        "color": "Silver"
+      },
+      {
+        "model": "Nissan Rogue",
+        "image": "nissan-rogue.jpg",
+        "category": "suv",
+        "specs": "Engine: 2.5L, 4-cylinder | Transmission: CVT | Fuel Type: Petrol",
+        "price": 25000,
+        "year": 2022,
+        "color": "White"
+      },
+      {
+        "model": "Jeep Grand Cherokee",
+        "image": "jeep-grand-cherokee.jpg",
+        "category": "suv",
+        "specs": "Engine: 3.6L, V6 | Transmission: Automatic | Fuel Type: Petrol",
+        "price": 38000,
+        "year": 2021,
+        "color": "Red"
+      }
+    
+      
+    ]
+  }
+  
