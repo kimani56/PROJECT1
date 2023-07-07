@@ -26,12 +26,15 @@ document.addEventListener("DOMContentLoaded", function () {
   
         const carModel = document.createElement("h3");
         carModel.textContent = `${car.company} ${car.specs}`;
+
+        // const carPrice = document.create Element()
   
         const carSpecs = document.createElement("p");
         carSpecs.textContent = car.category;
   
         const carButton = document.createElement("button");
         carButton.textContent = "More Info";
+
   
         carCard.appendChild(carImage);
         carCard.appendChild(carModel);
@@ -48,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const selectedCarCategory = carModelSelect.value;
       const selectedCarPrice = document.getElementById("price-range").value;
   
-      fetch("http://localhost:3000/car")
+      fetch("https://car-selector-api.onrender.com/car")
         .then((response) => response.json())
         .then((data) => {
           const filteredCars = data.filter((car) => {
@@ -68,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const filterForm = document.getElementById("filter-form");
     filterForm.addEventListener("submit", handleSubmitForm);
   
-    fetch("http://localhost:3000/car")
+    fetch("https://car-selector-api.onrender.com/car")
       .then((response) => response.json())
       .then((data) => {
         populateCarCategories(data);
